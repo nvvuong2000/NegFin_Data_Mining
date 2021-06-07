@@ -1,0 +1,86 @@
+#searchInput {
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+}
+
+#searchInput Button {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 0 5px 5px 0;
+}
+
+#searchInput Input {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+
+}
+
+#searchBtn {
+    transform: translate(-40px, 0);
+    cursor: auto;
+}
+
+#searchBtn:focus {
+    box-shadow: 1px 1px white;
+}
+
+#userListLastTd {
+    border: 0;
+}
+
+.popupUser {
+    background-color: white;
+    width: 400px;
+}
+
+.row1 {
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    color: rgb(207, 35, 56);
+    font-weight: bold;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+}
+
+.row2 {
+    border: 1px solid rgb(95, 95, 95);
+    height: 120px;
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.row2_1 {
+    margin-bottom: 20px;
+}
+
+.row2_2 .col-2 {
+    margin-right: 15px;
+}
+
+.detailUserPopUp {
+    border: 1px solid rgb(95, 95, 95);
+    height: 300px;
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.detailUserPopUp .row {
+    margin-bottom: 10px;
+}
+
+#closeDetail {
+    font-size: 24px;
+}
+
+.columnSort {
+    cursor: pointer;
+}
